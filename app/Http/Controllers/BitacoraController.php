@@ -15,9 +15,8 @@ class BitacoraController extends Controller
         return $bitacora;
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
+
+
     public function store(Request $request)
     {
         try {
